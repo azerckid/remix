@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "enum lec38.CarStatus",
+						"name": "_carStatus",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_carStatusInInt",
+						"type": "uint256"
+					}
+				],
+				"name": "carCurrentStatus",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "CheckStatus",
+				"outputs": [
+					{
+						"internalType": "enum lec38.CarStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "DrivingCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "StopCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "carStatus",
+				"outputs": [
+					{
+						"internalType": "enum lec38.CarStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOffCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOnCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/lec38.sol": "lec38"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/lec38.sol": {
+			"keccak256": "0xd198f62e7f5ba852d747caa40fae6716fc4f7dd3b5e0174df7b8f914a700c02d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e548c28e426515f91c364a7deb6ece78c3e813159d40b1993b3096e6f0367ca7",
+				"dweb:/ipfs/QmZXVnk6prWYT2G2PXPSTHpdZeeBahYycyQksrwK4p1kXS"
+			]
+		}
+	},
+	"version": 1
+}

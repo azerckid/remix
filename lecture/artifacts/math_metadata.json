@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "division",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/lec27.sol": "math"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/lec27.sol": {
+			"keccak256": "0xd9beec90425ac3d0c87548ca4af12746f53698b6ea89fc6c140303a4f3bc6cfa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6c61658d658b80b4940226ab1c4474999d722351be2bfa814565390aaf2e1a84",
+				"dweb:/ipfs/QmdM6LVEdSLyiEU8PpmMJwpACD9NMTzthuX7yEbHPZZ6vb"
+			]
+		}
+	},
+	"version": 1
+}

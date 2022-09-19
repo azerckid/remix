@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidityLecture/lecture_05.sol": "let5_2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidityLecture/lecture_05.sol": {
+			"keccak256": "0x82a852305fea0e2bd0325893a0dc728cf4d2a82196f186d06eac5ba822bb0904",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dcac4536b258fc129277e674fd736897e541f341cd834c98d69eb09c2961973e",
+				"dweb:/ipfs/Qmcx9KW1cWsF256GScMUPDf7Vtfji7ZxhGKXyBZdoNsyCF"
+			]
+		}
+	},
+	"version": 1
+}

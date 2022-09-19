@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "Hi",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "hi",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/lec41-1.sol": "HiSolidity"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/lec41-1.sol": {
+			"keccak256": "0x640b2fad4d9733bb768516b58d4c0b9f207180baa6e6f1e96ed48043687aff8c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://70775318f4712b508566af9ffc27f1963fa9ad309ae467bee4ead2e67c98543c",
+				"dweb:/ipfs/QmPQhTqLgAwAxwfQyxiTFgHb5H8RDtfiytFzkdbRbMkGAD"
+			]
+		}
+	},
+	"version": 1
+}

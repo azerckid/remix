@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidityLecture/lecture_05.sol": "let51"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidityLecture/lecture_05.sol": {
+			"keccak256": "0xa178543aa4e6e723ae00de3301da7acf9adbc0b50050f8a17fbe0316c153c7c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9bd9e56a0b2053f2c2b7f0f5f8887af6e0ad7f61666932146b8e52695bf75f55",
+				"dweb:/ipfs/QmVSs9HfJ8SJym8pxCdw3YbyZeRvGSaXhzozLxX4DCeoGq"
+			]
+		}
+	},
+	"version": 1
+}
